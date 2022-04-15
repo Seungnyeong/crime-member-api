@@ -16,7 +16,7 @@ public class MemberFacade {
     // TODO 추후에 다른 서비스들과 붙혀야 할일이 있으면 붙혀야 함.
     private final MemberService memberService;
 
-    public MemberInfo registerMember(MemberCommand command) {
+    public MemberInfo registerMember(MemberCommand.Register command) {
         return memberService.registerMember(command);
     }
 }

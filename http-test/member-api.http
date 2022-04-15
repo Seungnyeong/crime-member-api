@@ -1,11 +1,11 @@
 ### 유저 등록
-POST http://localhost:8888/api/v1/member
+POST http://localhost:8888/api/v1/member/sign-up
 Content-Type: application/json
 
 {
   "username" : "seungnyeing",
   "email" : "1234@asd",
   "password1" : "tmdsud258!@",
-  "password2" : "tmdsud258!",
-  "phone" : "sdsfsdfsdfsdf"
+  "password2" : "tmdsud258!@",
+  "phone" : "010-6270-5249"
 }
